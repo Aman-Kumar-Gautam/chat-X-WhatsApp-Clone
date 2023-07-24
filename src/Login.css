@@ -1,0 +1,62 @@
+.login{
+    font-family: catamaran, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    color: rgb(16, 29, 2);
+    
+    background-color: #cccccc;
+}
+.login__text > h1{
+    font-family: "DynaPuff", sans-serif;
+    
+}
+.login__container{
+    box-shadow: -1px 15px 10px -6px rgba(0, 0, 0, 0.75);
+    background-color: white;
+    padding: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+.login__container>img{
+    object-fit: contain;
+    height: 100px;
+    margin-bottom: 40px;
+    
+}
+.login__button > h3{
+    margin-top: 40px;
+    color: red;
+    font-family: "Audiowide", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 0 23px;
+    height: 60px;
+    width: 100px;
+    border-radius: 14%;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background: #ffffff;
+    outline-width: 0;
+    font-size: 16px;
+    
+    font-weight: 700;
+    line-height: 14px;
+}
+.btn:hover{
+    transform: translateY(-1px);
+    box-shadow: 10px 5px 5px rgba(230, 75, 9, 0.913);
+    color: white;
+    background: black
+}
+
+
+
+
+
+
